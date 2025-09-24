@@ -15,7 +15,7 @@ Its simple react project that allows you to search for youtube videos and displa
    - After create API click show key to code it<br>
    - Create a .env.local file in the root of your project and add: NEXT_PUBLIC_YOUTUBE_API_KEY=YOUR_API_KEY_HERE
 
-#### 3. Create the files in this structure:<br>
+#### 3. Create the files in this structure:
 ```
 📁 youtube-search-app/
 ├─ app/
@@ -29,8 +29,8 @@ Its simple react project that allows you to search for youtube videos and displa
 └─ ...
 ```
 
-#### 4. Run development server:<br>
-   npm run dev
+#### 4. Run development server:
+      npm run dev
   
-#### 5. Open your browser and go to:<br>
-   http://localhost:3000
+#### 5. Open your browser and go to:
+      http://localhost:3000
