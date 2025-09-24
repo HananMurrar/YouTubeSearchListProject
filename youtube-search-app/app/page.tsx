@@ -17,7 +17,7 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-white font-serif p-8 flex flex-col items-center">
+    <div className="min-h-screen bg-gray-50 font-serif p-8 flex flex-col items-center">
       <h1 className="text-4xl font-bold mb-8">YouTube Search List</h1>
       <SearchForm onSearch={handleSearch} />
       {loading && <p className="mt-4">Loading ...</p>}
