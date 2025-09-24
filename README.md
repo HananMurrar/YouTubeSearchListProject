@@ -4,18 +4,18 @@ Its simple react project that allows you to search for youtube videos and displa
 
 Steps:
 
-1. Create the next.js app:
+1. Create the next.js app:<br>
    npx create-next-app@latest youtube-search-app
 
-2. Set up youtube API Key:
-   Go to google cloud console
-   Create a new project
-   Navigate to APIs and services, then library, then enable youtube data API v3
-   Go to APIs and services, then credentials and create an API key
-   After create API click show key to code it
+2. Set up youtube API Key:<br>
+   Go to google cloud console<br>
+   Create a new project<br>
+   Navigate to APIs and services, then library, then enable youtube data API v3<br>
+   Go to APIs and services, then credentials and create an API key<br>
+   After create API click show key to code it<br>
    Create a .env.local file in the root of your project and add: NEXT_PUBLIC_YOUTUBE_API_KEY=YOUR_API_KEY_HERE
 
-3. Create the files in this structure:
+3. Create the files in this structure:<br>
 ```
 📁 youtube-search-app/
 ├─ app/
@@ -29,8 +29,8 @@ Steps:
 └─ ...
 ```
 
-4. Run development server:
+4. Run development server:<br>
    npm run dev
   
-5. Open your browser and go to:
+5. Open your browser and go to:<br>
    http://localhost:3000
