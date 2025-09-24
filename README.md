@@ -4,7 +4,7 @@ Its simple react project that allows you to search for youtube videos and displa
 
 #### Steps:
 
-#### 1. Create the next.js app:<br>
+#### 1. Create the next.js app:
    npx create-next-app@latest youtube-search-app
 
 #### 2. Set up youtube API Key:
