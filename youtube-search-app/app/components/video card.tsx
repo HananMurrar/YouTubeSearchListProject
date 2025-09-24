@@ -9,7 +9,7 @@ interface VideoCardProps {
 
 export default function VideoCard({ id, title, description, thumbnail }: VideoCardProps) {
   return (
-    <div className="border p-4 rounded shadow-sm bg-white">
+    <div className="border p-4 rounded shadow-sm bg-gray-50">
       <img src={thumbnail} alt={title} className="mb-2 w-full rounded" />
       <h2 className="font-bold">{title}</h2>
       <p className="text-sm">{description}</p>
@@ -23,3 +23,4 @@ export default function VideoCard({ id, title, description, thumbnail }: VideoCa
     </div>
   );
 }
+
