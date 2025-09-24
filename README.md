@@ -7,7 +7,7 @@ Steps:
 1. Create the next.js app:<br>
    npx create-next-app@latest youtube-search-app
 
-2. Set up youtube API Key:<br>
+2. Set up youtube API Key:
    - Go to google cloud console<br>
    - Create a new project<br>
    - Navigate to APIs and services, then library, then enable youtube data API v3<br>
