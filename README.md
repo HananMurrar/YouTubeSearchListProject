@@ -34,3 +34,5 @@ Its simple react project that allows you to search for youtube videos and displa
   
 #### 5. Open your browser and go to:
       http://localhost:3000
+
+![1](https://github.com/HananMurrar/YouTubeSearchListProject/issues/1#issue-3449557666)
