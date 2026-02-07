@@ -1,4 +1,4 @@
-// Single video card
+// single video card
 
 interface VideoCardProps {
   id: string;
@@ -23,4 +23,5 @@ export default function VideoCard({ id, title, description, thumbnail }: VideoCa
     </div>
   );
 }
+
 
