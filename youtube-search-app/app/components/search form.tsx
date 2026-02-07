@@ -1,4 +1,4 @@
-// Search input and button
+// search input and button
 
 "use client";
 
@@ -34,3 +34,4 @@ export default function SearchForm({ onSearch }: SearchFormProps) {
     </form>
   );
 }
+
