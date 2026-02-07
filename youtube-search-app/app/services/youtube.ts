@@ -1,4 +1,4 @@
-// API fetch function
+// for API fetch function
 
 export interface Video {
   id: string;
@@ -22,3 +22,4 @@ export async function fetchVideos(query: string): Promise<Video[]> {
     thumbnail: item.snippet.thumbnails.medium.url,
   }));
 }
+
